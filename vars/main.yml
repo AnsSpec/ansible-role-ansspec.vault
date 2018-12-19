@@ -1,0 +1,6 @@
+---
+software: 
+  name: vault
+  version: 1.0.0
+
+url_download: https://releases.hashicorp.com/{{ software.name }}/{{ software.version }}/{{ software.name }}_{{ software.version }}_{{ ansible_system | lower }}_amd64.zip
